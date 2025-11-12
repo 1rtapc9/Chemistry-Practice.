@@ -1,0 +1,11 @@
+/* Minimal styling; replace with Tailwind if preferred */
+body { font-family: Inter, system-ui, sans-serif; background:#f8fafc; margin:0; padding:0; color:#111827; }
+.app { max-width: 900px; margin: 28px auto; padding: 20px; background: #fff; border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); }
+.header { display:flex; justify-content:space-between; align-items:center; gap:12px; }
+.questionBox { background:#f3f4f6; padding:16px; border-radius:8px; margin:12px 0; }
+.inputRow { display:flex; gap:8px; margin-top:8px; }
+button { cursor:pointer; }
+.feedback-correct { background:#ecfdf5; border:1px solid #bbf7d0; padding:12px; border-radius:8px; }
+.feedback-wrong { background:#fff1f2; border:1px solid #fecaca; padding:12px; border-radius:8px; }
+.history { margin-top:12px; max-height:200px; overflow:auto; }
+.small { font-size:0.9rem; color:#6b7280; }
